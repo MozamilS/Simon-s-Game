@@ -11,4 +11,5 @@ app.get("/", function(req, res){
 
 app.listen(process.env.PORT || 3000, function(){
     console.log("Simon's Game Initiated")
+    console.log(process.env.PORT || 3000)
 })
